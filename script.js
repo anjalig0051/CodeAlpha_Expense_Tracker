@@ -55,6 +55,8 @@ addBtn.addEventListener('click', function() {
     dateCell.textContent = expense.date;
     deleteCell.appendChild(deleteBtn);
 
+    amountInput.value="";
+    dateInput.value="";
 });
 
 for (const expense of expenses) {
